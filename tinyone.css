@@ -1,0 +1,92 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.holder {
+	width: 960px;
+	height: 1500px; /*posle ke treba da se izbrise*/
+	margin: 0 auto;
+	background-color: yellow;
+	padding-left: 30px;
+}
+.header-left {
+	width: 300px;
+	height: 55px; 
+	float: left; 
+	margin: 20px 0 0 25px;
+}
+.header-right {
+	width: 450px;
+	height: 50px;
+	float: right; 
+	margin: 20px 40px 0 50px;
+	display: block;
+	padding:0 0 0 60px; 
+}
+.header-right ul {
+	width: 400px; 
+	height: 40px;
+	float: right;
+	font-size: 18px; 
+	list-style-type: none;
+}
+.header-right ul li {
+	height: 40px; 
+	float: left; 
+	font-family: Helvetica;
+	font-size: 15px;
+	padding:10px 10px;
+}
+header {
+	width: 960px;
+	height: 180px;
+}
+.slider {
+	margin: 0 auto;
+	width: 960px;
+	height: 510px;
+	background-color: yellow;
+	margin-bottom: 100px;
+}
+.slider img {
+	width: 450px;
+	height: 320px;
+	float: right;
+	padding-right: 35px;
+	padding-top: 35px;
+}
+.text {
+	float: left; 
+	font-family: Helvetica;
+	padding-left: 35px;
+	padding-top: 35px;
+}
+ul.vtora-klasa{
+    width: 940px;
+    height:350px;
+    margin:50px 0 0 0;
+    padding:0;
+    list-style-type: none;
+}
+ul.vtora-klasa li{
+    width:300px; 
+    height:340px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+ul.vtora-klasa li h1{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: 400px;
+    color: #444444;
+    padding-bottom:0 0 10 0;    
+}
+ul.vtora-klasa li p {
+    margin:10px 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Helvetica;
+}
