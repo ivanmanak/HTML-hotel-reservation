@@ -1,0 +1,72 @@
+<!DOCTYPE html>		
+<html>
+<head>
+	<title>Hotel Harmoni</title>
+	<link rel="stylesheet" type="text/css" href="rezervacija.css">
+</head>
+<body>
+	<h1>Rezervacija</h1>
+	<form action="process.js" mehtod="get"></form>
+	<fieldset class="licni">
+		<legend>Licni podatoci</legend>
+		Ime: 
+		<input type="text" name="Ime" placeholder="Ime">  <br>Prezime: 
+		<input type="text" name="prezime" placeholder="Prezime">		<br>Email: 
+		<input type="text" name="e-mail" placeholder="e-mail"> <br>Telefon za kontakt:<input type="text" name="Telefon za kontakt" placeholder="Telefon">
+	</fieldset>
+	<fieldset>
+
+	<legend>Tip na soba</legend>
+	<select type="tip-na-soba" name="tip-na-soba" placeholder="tip-na-soba">	
+	<option value="ednokrevetna">Ednokrevetna</option>	
+	<option value="ednokrevetna">Dvokrevetna</option>	
+	<option value="ednokrevetna">Trokrevetna</option>	
+	<option value="ednokrevetna">Apartman</option>
+	</select>
+</fieldset>
+	<fieldset>
+	
+	<legend>Tip na prestoj</legend>
+	<select type="text" name="tip na prestoj" placeholder="tip na prestoj">
+		<option value="Polupansion">Polupansion</option>
+	<option value="Pansion">Pansion</option>	
+	<option value="All inclusive">All inclusive</option>
+</select>
+</fieldset>
+
+<fieldset>
+	<legend>Broj na nokjevanja</legend>
+	<select type="nokjevanja" name="nokejvanja" placeholder="nokjevanja">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+</fieldset>
+<fieldset>
+	<legend>Transfer od aerodrom do hotel</legend>
+	<select type="text" name="Transfer" placeholder="Transfer">
+		<option value="Da">Da</option>
+		<option value="Ne">Ne</option>
+	</select>
+</fieldset>
+<fieldset>
+<legend>Dopolnitelni ulsugi</legend> 
+<ul class="checkbox"> 
+  <li><input type="checkbox" id="cb1" value="Sauna" /><label for="cb1">Sauna</label></li> 
+  <li><input type="checkbox" id="cb2" value="Masaza" /><label for="cb2">Masaza</label></li> 
+  <li><input type="checkbox" id="cb3" value="Parna Banja" /><label for="cb3">Parna banja</label></li> 
+  <li><input type="checkbox" id="cb4" value="Bazen" /><label for="cb4">Bazen</label></li> 
+  </ul> 
+</fieldset>
+<div class="kopce">
+<input type="submit" name="submit" value="Rezerviraj" class="send">
+</div>	
+	
+</body>
+</html>

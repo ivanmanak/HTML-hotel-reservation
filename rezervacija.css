@@ -1,0 +1,18 @@
+body{
+	margin:0 auto;
+	background-color: #8b8b8b;
+	width: 504px;
+	font-size: 18px;
+	font-family: Georgia;
+	text-align: left;
+
+}
+.checkbox {
+	list-style-type: none;
+}
+.kopce {
+	float: right;
+}
+.licni input {
+	float: right;
+    }
